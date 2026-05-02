@@ -84,7 +84,7 @@ func (t *SelectTime) Handle(_ context.Context, update tgbotapi.Update, s *sessio
 
 	rows = append(rows, tgbotapi.NewInlineKeyboardRow(
 		tgbotapi.NewInlineKeyboardButtonData(
-			"Start Monitor",
+			"Start monitor",
 			"start_monitor:",
 		),
 	))
